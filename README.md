@@ -5,13 +5,13 @@
 ## Technologies Used
 
 * GraphQL (Apollo Server) - schema-first or SDL first approach using GraphQL-Codegen 
-    * (currently shifting to code-first approach using TypeGraphQL)
+    * Currently shifting to code-first approach using TypeGraphQL)
 * ExpressJS
 * ReactJS + URQL 
 * GraphQL Subscriptions 
 * GraphQL Shield + GraphQL Middleware - For authorization of protected queries/mutations
 * WebSockets (Graphql-ws + ws)
-    * (will later shift to Server Sent Events) 
+    * Will later shift to Server Sent Events) 
 * Typegoose - Mongoose for Typescript ([see here](https://typegoose.github.io/typegoose/))
 * jsonwebtoken - For authentication (asymmetric signing using private/public PEM keys)
 
