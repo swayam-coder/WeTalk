@@ -1,0 +1,28 @@
+type User {
+  token: String!
+  email: String!
+}
+
+type Message {
+  id: String!
+  content: String!
+  date: String!
+  sent: Boolean!
+  created_by: String!
+  isDeleted: Boolean!
+}
+
+type Subscription {
+  messages: [Message!]
+  status(email: String!): String!
+}
+
+type Query {
+  messages(limit: Int!): [Message!]
+  sendStatus(email: String!): String
+}
+
+type Mutation {
+  postMessage(email: String!, content: String!): ID!
+  login(email: String!, password: String!): User!
+}

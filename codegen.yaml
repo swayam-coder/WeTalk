@@ -1,0 +1,13 @@
+schema: "./src/modules/schemas/index.ts" # GraphQL types (input file)
+overwrite: true
+generates:
+  ./gql-types.ts: # Typescript types (output generated file)
+    plugins: # List of needed plugins (installed as devDeps)
+      - "typescript"
+      - "typescript-resolvers"
+      - "typescript-operations"
+    config: 
+      contextType: ./src/modules/contextType#MyContext
+require: 
+  - ts-node/register/transpile-only
+  - tsconfig-paths/register

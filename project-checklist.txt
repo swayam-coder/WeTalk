@@ -1,0 +1,42 @@
+- How to write proper queries in graphql
+- Practice schema defs
+- Scalars
+- N+1 prob
+- Paginated queries
+- Codegen in frontend
+- SWC setup in frontend
+- Sanitization
+- Ratelimiting
+- Scaling websockets
+- eslint and prettier and other tools as in codevolution
+- setcredentials for returning cookies (JWT Authentication Node.js Tutorial with GraphQL and React Ben Awad somewher around 43:00)
+- GraphQL Scalars
+- sending graphql queries using fetch api
+- Error handling in the backend
+- A lot of work on frontend
+- asymmetric encryption
+- async mutex
+- Redirecting from server
+- Shift from PubSub to redis streams or something
+- Add Authentication
+- Shift to SSE afterwards
+- Make codegen to cooperate
+- Use prisma instead of storing to local storage
+- Convertion of types in keys
+- JWEs, JWS etc. and other web Security stuff
+- Shift to http2 and sse
+- AWS
+- integrate webhooks
+- shift from normal schema loading to graphql tools schema loading (pending)
+- Using graphql scalars to reduce yup validation code
+- websockets work (sending updates to specific clients)
+
+Q. What is done first graphql type checking or middlewares?
+
+Pending:
+- Using GraphQL-tools loader
+- Using pure graphql middlewares
+- Frontend Tooling
+- Backend Tooling _ including husky, rimraf, prettier, eslint
+ 
+// It is good to disable apollo's default healthcheck by disableHealthCheck: true and define your own express route for healthcheck
