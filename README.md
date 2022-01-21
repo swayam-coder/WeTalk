@@ -5,7 +5,7 @@
 ## Technologies Used
 
 * GraphQL (Apollo Server) - schema-first or SDL first approach using GraphQL-Codegen 
-    * Currently shifting to code-first approach using TypeGraphQL)
+    * Currently shifting to code-first approach using TypeGraphQL
 * ExpressJS
 * ReactJS + URQL 
 * Integrating SWC Compiler in place of Babel and TypeScript Compiler for faster builds
