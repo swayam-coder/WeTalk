@@ -117,7 +117,8 @@ dist
 
 graphql-checklist.txt
 checklist.txt
-./src/modules/playground.graphql
-./src/config
-./src/certs
+project-checklist.txt
+src/modules/typegen.graphql
+src/config/
+src/certs/
 middleware-use-cases.txt
