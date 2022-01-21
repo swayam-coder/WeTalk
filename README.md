@@ -8,10 +8,11 @@
     * Currently shifting to code-first approach using TypeGraphQL)
 * ExpressJS
 * ReactJS + URQL 
+* Integrating SWC Compiler in place of Babel and TypeScript Compiler for faster builds
 * GraphQL Subscriptions 
 * GraphQL Shield + GraphQL Middleware - For authorization of protected queries/mutations
 * WebSockets (Graphql-ws + ws)
-    * Will later shift to Server Sent Events) 
+    * Will later shift to Server Sent Events
 * Typegoose - Mongoose for Typescript ([see here](https://typegoose.github.io/typegoose/))
 * jsonwebtoken - For authentication (asymmetric signing using private/public PEM keys)
 
