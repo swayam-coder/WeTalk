@@ -36,7 +36,6 @@ async function serverStart(){
     const app = express();
     const httpServer = http.createServer(app);
 
-    // Doubt regarding DocumentNodeToGraphQLSchema function...
     const typeDefswithPermissions = applyMiddleware(
         typeDefs, 
         permissions
@@ -60,12 +59,9 @@ async function serverStart(){
 
     server.applyMiddleware({ app, ...serverOptions })
     
-    // here goes all the express routes and middlewares
     app.get('/healthcheck', function(_req, res) {
         res.send("Server is healthy");
     })
-
-    // Doubt (from here)
 
     // await new Promise<void>(resolve => 
     //     // httpServer.listen({ port }, resolve)
@@ -86,6 +82,3 @@ async function serverStart(){
 };
 
 serverStart();
-
-// error handling, how apollo and express and subscription work together, bodyParserConfig, middlewares
-// see graphql helpers... 
