@@ -122,3 +122,5 @@ src/modules/typegen.graphql
 src/config/
 src/certs/
 middleware-use-cases.txt
+client/build-checklist.txt
+web
